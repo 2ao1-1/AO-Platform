@@ -14,7 +14,8 @@ export function useRegister() {
     setToken("");
 
     try {
-      const res = await fetch("http://144.91.75.57:8080/api/auth/register", {
+      const res = await fetch("https://platform.2ao1.space/api/auth/register", {
+        // const res = await fetch("http://144.91.75.57:8080/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

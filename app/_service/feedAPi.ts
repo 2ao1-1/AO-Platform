@@ -1,6 +1,6 @@
 import { Post } from "../_types/postsType";
 
-const API_BASE_URL = process.env.NEXT_API_BASE_URL;
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export async function feedAPi(token: string): Promise<Post[]> {
   const res = await fetch(`${API_BASE_URL}/posts/feed`, {
