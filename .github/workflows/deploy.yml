@@ -48,6 +48,6 @@ jobs:
 
             docker run -d \
               --name ao-platform \
-              --restart unless-stopped \
+              --restart  unless-stopped \
               -p 8888:3000 \
               ao-platform
