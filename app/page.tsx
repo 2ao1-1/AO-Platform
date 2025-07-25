@@ -4,7 +4,7 @@ import { useFeed } from "./_hooks/useFeed";
 import { useCreatePost } from "./_hooks/useCreatePost";
 import Image from "next/image";
 
-const API_BASE_URL = process.env.NEXT_API_BASE_URL;
+// const API_BASE_URL = process.env.NEXT_API_BASE_URL;
 
 export default function Home() {
   // Authentication hook
