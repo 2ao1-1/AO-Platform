@@ -49,5 +49,5 @@ jobs:
             docker run -d \
               --name aoo-platform \
               --restart unless-stopped \
-              -p 3000:3000 \
+              -p 8888:3000 \
               ao-platform:latest
