@@ -44,10 +44,10 @@ jobs:
             cd /Ahmed-Imran/AO-platform/frontend
             git pull origin main
 
-            docker build -t ao-platform:latest .
+            docker build -t ao-platform .
 
             docker run -d \
-              --name aoo-platform \
+              --name ao-platform \
               --restart unless-stopped \
               -p 8888:3000 \
-              ao-platform:latest
+              ao-platform
