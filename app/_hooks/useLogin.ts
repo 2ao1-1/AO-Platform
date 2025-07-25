@@ -13,8 +13,8 @@ export function useLogin() {
     setToken("");
 
     try {
-      const res = await fetch("https://platform.2ao1.space/api/auth/login", {
-        // const res = await fetch("http://144.91.75.57:8080/api/auth/login", {
+      //const res = await fetch("https://platform.2ao1.space/api/auth/login", {
+      const res = await fetch("http://144.91.75.57:8080/api/auth/login", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
