@@ -1,8 +1,8 @@
 import { CreatePostData, Post, UploadImageResponse } from "../_types/postsType";
 
 class ApiService {
-  //private baseURL = "http://144.91.75.57:8080/api";
-  private baseURL = "https://platform.2ao1.space/api";
+  private baseURL = "http://144.91.75.57:8080/api";
+  // private baseURL = "https://platform.2ao1.space/api";
 
   private getAuthHeaders(token: string) {
     return {

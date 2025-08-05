@@ -1,14 +1,12 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  experimental: {},
-  output: "standalone",
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    domains: ["res.cloudinary.com"],
-    unoptimized: false,
-  },
-  env: {
-    NEXT_API_BASE_URL: process.env.NEXT_API_BASE_URL,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
   },
 };
 

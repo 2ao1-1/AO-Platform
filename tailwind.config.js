@@ -27,7 +27,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern":
           "url('/images/artem-bryzgalov-zdiUGE9nCA0-unsplash.jpg')",
-        // "hero-pattern": "url('/images/le-mucky-qSk4ODcbCAo-unsplash.jpg')",
+        frame: "url('/images/Spider_Web_Border.png')",
         // "hero-pattern": "url('/images/Hero.jpg')",
       },
     },
